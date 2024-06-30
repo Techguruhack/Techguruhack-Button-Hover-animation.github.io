@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+
+  .my-button {
+    padding: 15px 30px;
+    border: 2px solid #333;
+    height: 80px;
+    width: 200px;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .my-button1 {
+    background: linear-gradient(45deg, #ff6b6b, #ffcc5c);
+  }
+
+  .my-button1:hover {
+    background: linear-gradient(45deg, #ffcc5c, #ff6b6b);
+    color: #fff;
+  }
+
+  .my-button2 {
+    background: #6bc5ff;
+  }
+
+  .my-button2:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: -1;
+    transition: all 0.4s ease;
+  }
+
+  .my-button3 {
+    background: linear-gradient(45deg, #7bc043, #f7f06d);
+  }
+
+  .my-button3:hover {
+    border-color: #7bc043;
+    background: linear-gradient(45deg, #f7f06d, #7bc043);
+    color: #fff;
+  }
+
+  .my-button4 {
+    background: #f78fb3;
+  }
+
+  .my-button4:hover {
+    transform: scale(1.1);
+    background: #f38fb3;
+  }
+
+  .my-button5 {
+    background: #ff6f61;
+  }
+
+  .my-button5:hover {
+    background: #ff4b3e;
+    color: #fff;
+  }
+
+  .my-button6 {
+    background: linear-gradient(45deg, #4b79a1, #283e51);
+  }
+
+  .my-button6:hover::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    transition: all 0.4s ease;
+    transform: translate(-50%, -50%);
+  }
+
+  .my-button7 {
+    background: #2ecc71;
+  }
+
+  .my-button7:hover {
+    border-color: #1abc9c;
+    background-color: #1abc9c;
+    color: #fff;
+  }
+
+  .my-button8 {
+    background: #f1c40f;
+  }
+
+  .my-button8:hover {
+    border-radius: 50px;
+    background: #f39c12;
+    color: #fff;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
